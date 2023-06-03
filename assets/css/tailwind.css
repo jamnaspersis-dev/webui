@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: Britania Vintage;
+    font-weight: 400;
+    src: url(/assets/fonts/britania-vintage/Britania\ Vintage.ttf);
+  }
+  @font-face {
+    font-family: Britania Vintage;
+    font-weight: 500;
+    src: url(/assets/fonts/britania-vintage/Britania\ Vintage\ Bold.ttf);
+  }
+}

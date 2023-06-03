@@ -1,17 +1,20 @@
 <template>
   <Swiper
     class="max-h-screen"
-    :modules="[SwiperPagination, SwiperMousewheel]"
-    :slides-per-view="1"
+    :modules="swiperModules"
     :direction="'vertical'"
     pagination
     mousewheel
   >
-    <SwiperSlide class="bg-green-500">
-      <strong>Page 1</strong>
+    <SwiperSlide>
+      <Home />
     </SwiperSlide>
-    <SwiperSlide class="bg-red-500">
-      <strong>Page 2</strong>
+    <SwiperSlide>
+      <About />
     </SwiperSlide>
   </Swiper>
 </template>
+
+<script setup>
+const swiperModules = [SwiperPagination, SwiperMousewheel];
+</script>
