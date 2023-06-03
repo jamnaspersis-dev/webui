@@ -2,15 +2,26 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer base {
-  @font-face {
-    font-family: Britania Vintage;
-    font-weight: 400;
-    src: url(/assets/fonts/britania-vintage/Britania\ Vintage.ttf);
-  }
-  @font-face {
-    font-family: Britania Vintage;
-    font-weight: 500;
-    src: url(/assets/fonts/britania-vintage/Britania\ Vintage\ Bold.ttf);
-  }
+@font-face {
+  font-family: 'Aileron';
+  font-weight: 300;
+  src: url('../fonts/aileron/Aileron-UltraLight.otf');
+}
+
+@font-face {
+  font-family: 'Aileron';
+  font-weight: 400;
+  src: url('../fonts/aileron/Aileron-SemiBold.otf');
+}
+
+@font-face {
+  font-family: 'Britania Vintage';
+  font-weight: 400;
+  src: url('../fonts/britania-vintage/Britania-Vintage.otf');
+}
+
+@font-face {
+  font-family: 'Britania Vintage';
+  font-weight: 500;
+  src: url('../fonts/britania-vintage/Britania-Vintage-Bold.otf');
 }
