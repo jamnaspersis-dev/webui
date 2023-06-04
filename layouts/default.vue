@@ -1,6 +1,7 @@
 <template>
   <div class="relative">
-    <Navbar />
+    <NavbarDesktop />
+    <NavbarMobile />
     <slot />
   </div>
 </template>

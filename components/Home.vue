@@ -1,22 +1,17 @@
 <template>
   <div
-    class="bg-home bg-cover bg-center h-full w-full flex items-center justify-center text-center flex-col"
+    class="bg-home-mobile md:bg-home bg-cover bg-center h-full w-full flex items-center justify-center text-center flex-col px-6"
   >
-    <img class="h-56 drop-shadow-md" src="~/assets/image/logo.png" />
-    <p class="text-9xl font-primary text-white drop-shadow-md">
+    <img class="h-32 md:h-56 drop-shadow-md" src="~/assets/image/logo.png" />
+    <p class="text-5xl md:text-9xl font-primary text-white drop-shadow-md">
       <span class="text-oren-dua boujee-text">Jambore</span> Nasional 7
     </p>
-    <p class="font-secondary font-light text-emas text-xl drop-shadow-md italic">
+    <p class="font-secondary font-light text-emas text-sm md:text-xl drop-shadow-md italic">
       Kolaborasi Pelajar dan Mahasiswa Persis
     </p>
-    <p class="font-secondary font-bold text-emas text-xl drop-shadow-md uppercase italic">
+    <p class="font-secondary font-bold text-emas text-sm md:text-xl drop-shadow-md uppercase italic">
       Berdaya, Berkarya, Digdaya untuk Mewujudkan Indonesia Emas 45
     </p>
-    <button
-      class="transition px-6 py-2 flex rounded-xl font-semibold text-white mt-6 shadow-md bg-hijau-satu hover:bg-hijau-dua active:shadow-none active:bg-hijau-satu"
-    >
-      Coming Soon
-    </button>
   </div>
 </template>
 
@@ -33,7 +28,7 @@
 
 @media (prefers-reduced-motion: no-preference) {
   .boujee-text {
-    animation: move-bg 8s linear infinite;
+    animation: move-bg 6s linear infinite;
   }
   @keyframes move-bg {
     to {

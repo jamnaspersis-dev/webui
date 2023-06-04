@@ -3,6 +3,7 @@ module.exports = {
     extend: {
       backgroundImage: {
         home: "url('/assets/image/home-bg.jpg')",
+        "home-mobile": "url('/assets/image/home-bg-mobile.jpg')",
       },
       fontFamily: {
         primary: ["Britania Vintage", "sans-serif"],
